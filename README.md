@@ -90,7 +90,35 @@ Embodied artificial intelligence (EAI) represents a critical frontier in bridgin
   <br>
   <em>Fig. 2: Privacy-aware embodied AI evaluation framework spanning four phases: Instruction Understanding, Environment Perception, Action Planning, and Physical Interaction.</em>
 </div>
+### Overview Table
 
+| Phase | Dimension | Key Focus | Representative Works |
+|:------|:----------|:----------|:---------------------|
+| **I. Instruction Understanding** | Privacy-Preserving Input | Federated learning, local DP for NLU | FedVLN, FedVLA, Privacy-BERT |
+| | Instruction-Side Safety | Jailbreak defense, safety filtering | AGENTSAFE, BadNAVer, POEX |
+| | Grounding Accuracy | Instruction-trajectory alignment | Waypoint Planner, DoRO |
+| | Fulfillment Utility | Ambiguity resolution, preference modeling | JARVIS, REI-Bench |
+| | Parsing Efficiency | Sub-instruction decomposition, distillation | MoLe-VLA, MAGIC |
+| | Robust Understanding | Noise/adversarial tolerance | Pragmatic ToM, NavA³ |
+| | Generalization | Zero-shot, open-vocabulary grounding | RT-2, ZSON, OpenMap |
+| | Human-Centered | Dialog, clarification, user modeling | DialFRED, Mixed-Initiative Dialog |
+| **II. Environment Perception** | Privacy-Preserving Perception | Low-resolution, anonymization, FL | Ultra-Low-Res RGB, FLAME, FedVLN |
+| | Adversarial Defense | Attack detection, active defense | VPR Attacks, BadDepth, Embodied Active Defense |
+| | Perception Accuracy | Multi-modal fusion, calibration | TVT-Transformer, EmbodiedScan |
+| | Perception Utility | Task-driven encoding, token pruning | VLA-Pruner, CompressorVLA |
+| | Perception Efficiency | Event cameras, semantic maps | HALSIE, MapNav, CODEI |
+| | Robust Perception | Noise/occlusion tolerance | RobustNav, CronusVLA |
+| | Generalizable Perception | Domain adaptation, visual reversion | ReVLA, RT-2, EnvDrop |
+| | Human-Aware Perception | Social navigation, dynamic humans | HA-VLN 2.0, VLM-Social-Nav |
+| **III. Action Planning** | Safety Constraints | Constrained RL, safety shielding | SafeVLA, Safety-Aware Task Planning |
+| | Privacy-Aware Planning | Trajectory privacy, DP in MARL | PANav, Robots as Double Agents |
+| | Robust Planning | Deviation recovery, adversarial defense | Perturbation-Aware CL, VoxPoser |
+| **IV. Physical Interaction** | Reliability | Execution monitoring, failure recovery | — |
+| | Attack/Abuse | Physical adversarial attacks | — |
+| | Privacy | Sensor data leakage in deployment | — |
+| | Value Alignment | Human preference alignment | GRAPE |
+
+---
 ---
 
 ## 💬 Instruction Understanding
